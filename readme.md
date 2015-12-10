@@ -1,0 +1,1 @@
+In this project you'll be building a mock e-commerce website to learn about more intricate CSS selectors, relative file linking, researching CSS &amp; HTML techniques on the fly and basic page layout theory.

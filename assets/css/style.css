@@ -1,0 +1,46 @@
+body{
+  /* By default, the body has margins. We want to reset these so our elements can span the entire width of the page. */
+  margin:0;
+}
+#header{
+  background:rgb(250,250,250);
+  border-bottom:1px solid rgba(50,50,50,0.5);
+  padding:15px 100px;
+  overflow:auto;
+  margin-bottom:50px;
+  height:35px;
+}
+#header .logo{
+  width:50%;
+  height:100%;
+  float:left;
+  display:inline-block;
+}
+#header .logo img{
+  height:100%;
+}
+#header .nav{
+  float:right;
+  width:50%;
+  text-align:right;
+  display:inline-block;
+  line-height:35px;
+}
+#header .nav ul{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+#header .nav li{
+  display:inline-block;
+}
+#header .nav li a{
+  text-decoration:none;
+  color:blue;
+  margin:0px 10px;
+}
+#products{
+  margin:auto 100px;
+  padding:25px;
+  background-color:#ccc; /* Remove this line when you begin writing code - nobody wants this crappy background! */
+}
