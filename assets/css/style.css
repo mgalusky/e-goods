@@ -39,8 +39,58 @@ body{
   color:blue;
   margin:0px 10px;
 }
+/* #sidebar {
+  float: left;
+  margin: 25px, 0px, 25px, 20px;
+  padding: 5px;
+  width: 15%;
+  background-color: #FF331F;
+  border-right: 2px, solid, #0C1515;
+  text-align: right;
+}
+
+#sidebar ul {
+  list-style-type:none;
+}
+#sidebar li {
+  text-decoration:none;
+} */
 #products{
-  margin:auto 100px;
+  float: right;
+  margin:25px 20px;
   padding:25px;
-  background-color:#ccc; /* Remove this line when you begin writing code - nobody wants this crappy background! */
+  width: 58%;
+  height: 160px;
+  background-color:#789ABB;
+  border-radius: 5px;
+}
+
+#products img{
+  float: left;
+  margin-right: 25px;
+  padding: 5px;
+  background-color: #0C1515;
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+#products h2 {
+  margin-top: 0px;
+  color: #0C1515;
+  font-size: 24px;
+}
+
+#products span {
+  color: #FFFFEA;
+  background-color: #EF8E16;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#products a {
+  float: right;
+  color: #C1110B;
+  font-weight: bold;
+  text-decoration: none;
 }
